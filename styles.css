@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #eaf4f4;
+}
+
+header {
+    background-color: #6d520d; /* Light teal color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #00796b; /* Darker teal color */
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: 220px; /* Adjusted height for better display */
+    object-fit: cover;
+}
+
+button.toggle-btn {
+    background-color: #2d2f2f; /* Light teal color */
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.toggle-btn:hover {
+    background-color: #272627; /* Slightly darker teal */
+}
+
+.details {
+    display: none;
+    padding: 15px;
+    font-size: 1em;
+    line-height: 1.6;
+    background-color: #b2dfdb; /* Light teal background */
+    border-top: 1px solid #ddd;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.details p {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: #004d40; /* Dark green color */
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #ffffff; /* White background for input fields */
+}
+
+form button {
+    background-color: #cd4141; /* Darker teal color */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #292926; /* Dark green color */
+}
+
+footer {
+    background-color: #5e6564; /* Darker teal color */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    /* Add this to your styles.css or <style> section */
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: #333; /* Default icon color */
+    margin: 0 10px;
+    font-size: 24px; /* Adjust size as needed */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #007bff; /* Color on hover */
+}
+
+@media (max-width: 768px) {
+    .social-media a {
+        font-size: 20px;
+        margin: 0 8px;
+    }
+}
+
+}
+
+
